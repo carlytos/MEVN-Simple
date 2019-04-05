@@ -1,1 +1,1 @@
-alert('VuejJs goes here');
+alert('VuejJs works')

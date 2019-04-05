@@ -91,9 +91,10 @@
   !*** ./src/app/index.js ***!
   \**************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("alert('VuejJs goes here');\n\n//# sourceURL=webpack:///./src/app/index.js?");
+"use strict";
+eval("\n\nalert('VuejJs works');\n\n//# sourceURL=webpack:///./src/app/index.js?");
 
 /***/ })
 
