@@ -1,0 +1,1 @@
+alert('VuejJs goes here');
