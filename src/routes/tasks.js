@@ -10,6 +10,12 @@ router.get('/', async (req, res) => {
     res.json(tasks);
 });
 
+router.get('/:id', async (req, res) => {
+    const task = await Task.findById(req.params.id);
+    res.json(task);
+
+});
+
 router.post('/', async (req, res) => {
     const task = new Task(req.body);
     await task.save();
